@@ -18,5 +18,8 @@ def robot_to_origin(moves):
         my_dict[move] = moves.count(move)
     x = my_dict['R'] - my_dict['L']
     y = my_dict['U'] - my_dict['D']
-    print("x:", x, "y:", y)
-    print("Your distance to origin is: ", ((abs(x) ** 2) + (abs(y) ** 2)) ** 1 / 2)
+    if x == 0 and y == 0:
+     return True
+    else:
+     distance = abs(x) ** 2 + abs(y) ** 2
+    
