@@ -6,7 +6,7 @@
 3) Eğer harfler birbirinin aynıysa return true
 """
 
-def isPalindrome(word):
+def is_palindrome(word):
     middle = len(word) // 2
     left = middle - 1
     right = middle + 1
