@@ -14,7 +14,7 @@ def single_number_2(array):
 
     return single_number
 
-def single_number_2_oneLine(array):
+def single_number_2_oneline(array):
     return 2*sum(set(array)) - sum(array)
 
 print(single_number_2_oneLine([1,1,2,3,4,3,2]))
