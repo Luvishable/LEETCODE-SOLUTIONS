@@ -1,6 +1,6 @@
 # Given an array of integers of size N, find maximum sum of K consequtive elements
 
-def maxSum_1(array, windowSize):
+def max_sum_1(array, windowSize):
     array_size = len(array)
     if array_size < windowSize:
         print("Invalid Operation")
@@ -17,5 +17,5 @@ def maxSum_1(array, windowSize):
 
 array = [80, -50, 90, 100, 45, 59, 72, 21, 35, 46, 12]
 k = 2
-answer = maxSum_1(array, k)
+answer = max_sum_1(array, k)
 print(answer)
