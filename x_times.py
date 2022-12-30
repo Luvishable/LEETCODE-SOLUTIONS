@@ -1,4 +1,6 @@
 """
+NOT: Bu soru bir akadaşıma İş Bankasının mülkatında soruldu.
+
 1- 8 rakamı 11 defa geçiyor:
 key:8 value 11
 move: remove 3 times
