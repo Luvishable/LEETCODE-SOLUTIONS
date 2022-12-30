@@ -1,7 +1,7 @@
 # What is the minimum number of boats to carry every person? A boat has a kilogram limit.
 # for example if a boat cancarry at most 3 kg, the people should be totaly at most 3 kg
 
-def numRescueBoats(people, limit):
+def num__rescue_boats(people, limit):
     people.sort()
     left = 0
     right = len(people) - 1
