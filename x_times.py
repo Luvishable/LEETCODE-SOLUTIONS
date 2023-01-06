@@ -1,5 +1,4 @@
 """
-NOT: Bu soru bir akadaşıma İş Bankasının mülkatında soruldu.
 
 1- 8 rakamı 11 defa geçiyor:
 key:8 value 11
@@ -29,10 +28,10 @@ eğer rakamın(key'in) value'su key/2 ile key arasında bir değer ise counter'�
 eğer rakamın(key'in) value'su key/2'den küçükse counter'ı value kadar artır
 eğer rakamın(key'in) value'su key'den büyükse counter'ı value-key kadar artır
 
-key/2 <= value < key =>  counter += (key-value)         CHECKED
-value < key/2 => counter += value                       CHECKED
-value > key => counter += (value- key)                  CHECKED .
-key == value => continue                                CHECKED .
+key/2 <= value < key =>  counter += (key-value)       
+value < key/2 => counter += value                      
+value > key => counter += (value- key)                   
+key == value => continue                                
 """
 
 import math
